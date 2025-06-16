@@ -239,7 +239,7 @@
     ]
   },
   {
-    "Id": "68357f4c790d8280c4b21997",
+    "Id": "68357f4c790d8280c4b21997u",
     "Name": "Phoenix",
     "Attributes": {
       "totalCost": "340",
@@ -252,13 +252,16 @@
     "AttributeLists": {
       "FullOptions": [
         "Frost Phoenix",
-        "Fire Phoenix"
+        "Fire Phoenix",
+        "Wardens Bond"
       ]
     },
     "RuleIds": {},
     "OptionListIds": [
       "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
-      "02e7b8d5-bd1b-40e9-bd65-7d66549020ce"
+      "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
+      "9da8b6f8-ae3f-4614-9d41-ed0b430eee5cwb",
+      "02e7b8d5-bd1b-40e9-bd65-7d66549020cewb"
     ],
     "ProfileIds": [
       "68357f4c790d8280c4b21997"

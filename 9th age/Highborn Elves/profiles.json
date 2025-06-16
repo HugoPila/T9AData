@@ -2100,7 +2100,10 @@
       "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-stomp_attack": "Stomp Attack (D6)",
       "rulebook-aegis": "Aegis (4+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)"
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-magical_attacks": "Magical Attacks"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2121,7 +2124,90 @@
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
           "rulebook-terror": "Terror",
-          "he-frost_phoenix": "Frost Phoenix"
+          "he-frost_phoenix": "Frost Phoenix",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997f",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth",
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-frost_phoenix": "Fire Phoenix",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth",
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "he-frost_phoenix": "Fire Phoenix"
         }
       },
       {
@@ -2148,7 +2234,210 @@
         },
         "RuleIds": {
           "rulebook-hand_weapon": "Hand Weapon",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997wb",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth",
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-frost_phoenix": "Frost Phoenix",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-disciplined": "Disciplined",
+      "he-wardens_bond": "Warden's Bond"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth",
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "he-frost_phoenix": "Frost Phoenix",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-disciplined": "Disciplined",
+          "he-wardens_bond": "Warden's Bond"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Warden",
+        "Values": {
+          "At": "1",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-halberd": "Halberd"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997fwb",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth",
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-frost_phoenix": "Fire Phoenix",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)",
+      "rulebook-disciplined": "Disciplined",
+      "he-wardens_bond": "Warden's Bond"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth",
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "he-frost_phoenix": "Fire Phoenix",
+          "rulebook-disciplined": "Disciplined",
+          "he-wardens_bond": "Warden's Bond"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Warden",
+        "Values": {
+          "At": "1",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-halberd": "Halberd"
         }
       }
     ],

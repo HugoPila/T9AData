@@ -266,17 +266,33 @@
   {
     "Id": "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
     "Name": "Frost Phoenix",
-    "Type": "ModelSwapRule",
-    "OwnerId": "68357f4c790d8280c4b21997",
-    "WDSDataId": "he-frost_phoenix",
+    "Type": "ModelChoice",
+    "OwnerId": "68357f4c790d8280c4b21997u",
+    "WDSDataId": "68357f4c790d8280c4b21997",
     "StatlineIndex": "0"
   },
   {
     "Id": "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
     "Name": "Fire Phoenix",
-    "Type": "ModelSwapRule",
-    "OwnerId": "68357f4c790d8280c4b21997",
-    "WDSDataId": "he-fire_phoenix",
+    "Type": "ModelChoice",
+    "OwnerId": "68357f4c790d8280c4b21997u",
+    "WDSDataId": "68357f4c790d8280c4b21997f",
+    "StatlineIndex": "0"
+  },
+  {
+    "Id": "9da8b6f8-ae3f-4614-9d41-ed0b430eee5cwb",
+    "Name": "Frost Phoenix Warden’s Bond",
+    "Type": "ModelChoice",
+    "OwnerId": "68357f4c790d8280c4b21997u",
+    "WDSDataId": "68357f4c790d8280c4b21997wb",
+    "StatlineIndex": "0"
+  },
+  {
+    "Id": "02e7b8d5-bd1b-40e9-bd65-7d66549020cewb",
+    "Name": "Fire Phoenix Warden’s Bond",
+    "Type": "ModelChoice",
+    "OwnerId": "68357f4c790d8280c4b21997u",
+    "WDSDataId": "68357f4c790d8280c4b21997fwb",
     "StatlineIndex": "0"
   },
   {
