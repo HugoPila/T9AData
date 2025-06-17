@@ -2103,7 +2103,8 @@
       "rulebook-resistance": "Resistance (Flaming Attacks)",
       "rulebook-fearless": "Fearless",
       "rulebook-supernal": "Supernal",
-      "rulebook-magical_attacks": "Magical Attacks"
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2126,14 +2127,15 @@
           "rulebook-terror": "Terror",
           "he-frost_phoenix": "Frost Phoenix",
           "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal"
+          "rulebook-supernal": "Supernal",
+          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)"
         }
       },
       {
         "Name": "Phoenix",
         "Values": {
           "HP": "5",
-          "Df": "3",
+          "Df": "5",
           "Re": "5",
           "Arm": "0"
         },
@@ -2146,10 +2148,10 @@
         "Name": "Phoenix",
         "Values": {
           "At": "4",
-          "Of": "3",
+          "Of": "5",
           "St": "5",
           "AP": "2",
-          "Ag": "2"
+          "Ag": "4"
         },
         "RuleIds": {
           "rulebook-hand_weapon": "Hand Weapon",
@@ -2271,6 +2273,7 @@
       "rulebook-supernal": "Supernal",
       "rulebook-magical_attacks": "Magical Attacks",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
       "he-wardens_bond": "Warden's Bond"
     },
     "EquipmentIds": [],
@@ -2296,6 +2299,7 @@
           "rulebook-fearless": "Fearless",
           "rulebook-supernal": "Supernal",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
           "he-wardens_bond": "Warden's Bond"
         }
       },
@@ -2303,7 +2307,7 @@
         "Name": "Phoenix",
         "Values": {
           "HP": "5",
-          "Df": "3",
+          "Df": "5",
           "Re": "5",
           "Arm": "0"
         },
@@ -2316,10 +2320,10 @@
         "Name": "Phoenix",
         "Values": {
           "At": "4",
-          "Of": "3",
+          "Of": "5",
           "St": "5",
           "AP": "2",
-          "Ag": "2"
+          "Ag": "4"
         },
         "RuleIds": {
           "rulebook-hand_weapon": "Hand Weapon",
